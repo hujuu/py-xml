@@ -1,0 +1,8 @@
+<feed attrA="value A" attrB="value B">
+    <title>title C</title>
+    <categories>
+        <category term="Asia">アジア</category>
+        <category term="South America" />
+        <category term="Europe" />
+    </categories>
+</feed>

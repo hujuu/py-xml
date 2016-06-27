@@ -1,0 +1,2 @@
+{'': u'http://www.w3.org/2005/Atom', u'im': u'http://itunes.apple.com/rss'}
+2016-06-24T03:10:36-07:00 LINE POP2 - LINE Corporation 

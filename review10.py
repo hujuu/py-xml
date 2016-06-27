@@ -17,16 +17,21 @@ e = root.find('title')
 print e.tag  # titleと出力
 print e.text  # title Cと出力
 
+es = root.find('.//category')
+print ">>テスト"
+print es.tag  # titleと出力
+print es.text  # title Cと出力
+
 es = root.findall('.//category')
 for e in es:
-    print e.tag, e.attrib  # 出力なし
+    print e.tag, e.attrib
     
 es = root.findall(".//category[@term='Asia']")
 for e in es:
     print e.tag, e.attrib, e.text
 
-print "アサート"
+#print "アサート"
     
-es = root.findall(".//feed/categories/category[1]")
-for e in es:
-    print e.tag, e.attrib, e.text
+#es = root.findall(".//feed/categories/category[1]")
+#for e in es:
+#    print e.tag, e.attrib, e.text
